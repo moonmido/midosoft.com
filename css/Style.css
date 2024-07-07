@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+background-color: rgb(255, 238, 0);
+width: 100%;
+position: fixed;
+z-index: 999;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 200px;
+}
+
+
+.logo{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.1em;
+padding-left: 20px;
+}
+
+.navigation a:hover{
+    color: rgb(255, 55, 0);
+}
+section{
+    padding: 100px 200px;
+}
+
+
+.main{
+    width: 100%;
+min-height: 100vh;
+display: flex;
+align-items: center;
+background-image: url(../images/1874580.jpg);
+background-position: center;
+background-size:contain;
+background-attachment: fixed;
+}
+
+.main h2 {
+color: white;
+font-size: 1.4em;
+font-weight: 500;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: yellow;
+    font-size: 1.8em;
+    font-weight: 900;
+}
+.main h3{
+    color: white;
+font-size: 1.6em;
+font-weight: 700;
+letter-spacing: 1px;
+margin-top: 10px;
+margin-bottom: 30px;
+}
+.view-games {
+color: #000000;
+background-color: yellow;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 1.1;
+font-weight: 500px;
+display:inline-block;
+padding: 0.9375em 2.1875em ;
+letter-spacing: 1px;
+border-radius: 15px;
+margin-bottom: 30px;
+transition: 0.7s ease;
+}
+.view-games:hover{
+    background-color: rgb(165, 171, 17);
+    transform: scale(1.1);
+}
+.socicon a{
+color: aliceblue;
+text-decoration: none;
+padding-right: 40px;
+margin-left: 20px;
+font-size: 2em;
+font-weight:700;
+letter-spacing: 1px;
+font-style: inherit;
+}
+.socicon a:hover{
+    color: burlywood;
+}
+
+.title{
+color: #fb8e00;
+display: flex;
+font-size: 2.2em;
+font-weight: 800;
+justify-content: center;
+margin-bottom: 30px;
+}
+
+.content{
+display: flex;
+justify-content: center;
+flex-direction:row;
+flex-wrap: wrap;
+}
+
+.card{
+    background-color: aliceblue;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /25%);
+    border-radius: 10px;
+    padding: 25px;
+margin: 15px;
+transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon {
+    color: #fbc000;
+    font-size: 8em;
+text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.info h2{
+color: #fb8e00;
+font-size: 1.8em;
+}
+
+.info p{
+    padding-top:10px ;
+}
+  .soft{
+    background-color: #010215;
+}
+.content1{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.soft-card{
+background-color: aliceblue;
+width: 25em;
+min-height: 14em;
+overflow: hidden;
+border-radius: 10px;
+margin: 20px;
+transition: 0.7s ease;
+}
+
+.soft-card:hover{
+    transform: scale(1.1);
+}
+.soft-img img{
+    width: 100%;
+}
+.soft-card:hover .soft-img{
+    opacity: 0.9;
+}
+
+.soft-cat{
+    padding: 5px;
+    color: #000000;
+    font-size: 0.8em;
+}
+.soft-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.soft-title a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fb8e00;
+    font-size: 1.1em;
+    padding-right: 5px;
+}
+
+.soft-title a:hover{
+    color: rgb(0, 0, 0);
+}  
+
+.soft-card1{
+    background-color: rgb(255, 228, 228);
+    align-items: center;
+    padding: 10px;
+    width: 84em;
+    min-height: 15em;
+    border:1px solid #fb8e00 ;
+    border-radius: 15px;
+    box-shadow: 0px 5px 25px rgba(1 1 1 /25%);
+transition: 0.7s ease;
+margin: 30px;
+}
+
+.soft-card1:hover{
+    transform:scale(1.1);
+}
+
+.qat{
+    font-size: 1.1em;
+    font-weight: 400;
+    padding: 12px;
+}
+
+.soft-t1{
+    font-size: 1.5em;
+    font-size: 600;
+    color: #fb8e00;
+}
+
+.bord{
+width: 100%;
+background-color: #080123;
+min-height: 5em;
+padding: 30px;
+margin-top: 10px;
+}
+.ico{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 400;
+    display: inline-block;
+margin: 10px;
+}
+
+.num{
+    font-size: 1.1;
+    font-weight: 400;
+    color: #fb8e00;
+    padding: 20px;
+}
+.ico a{
+    color: white;
+    font-size: 2.9em;
+    font-weight: 1200;
+    display: inline-block;
+margin-left: 200px;
+transition: 0.7s ease;
+}
+.ico a:hover{
+    color: #fb8e00;
+    transform: scale(1.1);
+}
